@@ -1,0 +1,13 @@
+HOME CARE UNAI — PREVIEW DEMO
+
+1. Open index.html with Chrome, Edge, or Firefox.
+2. Click Masuk and choose Pelanggan or Admin (no username/password needed).
+3. As Pelanggan: choose Pesan layanan; fill date, time, distance and personal details; save and open struk; click Download PDF.
+4. As Admin: review dashboard, booking status, CRUD services, team, customers, promotions, service areas, partner applications and reviews.
+5. To reset: Admin > Pengaturan > Reset semua data demo.
+
+All data stored locally in your browser (localStorage). This is a demo, not a live medical or payment system.
+
+If direct file opening is blocked, open this folder in a terminal and run:
+python -m http.server 8765
+Then open http://127.0.0.1:8765

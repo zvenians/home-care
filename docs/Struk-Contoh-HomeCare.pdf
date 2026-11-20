@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2879 >>
+stream
+1 1 1 rg 0 0 595 842 re f
+0.04 0.24 0.22 rg 0 766 595 76 re f
+1 1 1 rg BT /F2 24 Tf 1 0 0 1 44 800 Tm (homecare) Tj ET
+0.71 0.92 0.80 rg BT /F1 10 Tf 1 0 0 1 167 800 Tm (UNAI  /  DEMO) Tj ET
+1 1 1 rg BT /F1 9 Tf 1 0 0 1 44 778 Tm (RINCIAN PEMESANAN  -  BUKAN BUKTI PEMBAYARAN) Tj ET
+0.10 0.20 0.20 rg BT /F2 19 Tf 1 0 0 1 44 733 Tm (STRUK PEMESANAN) Tj ET
+0.10 0.20 0.20 rg BT /F2 11 Tf 1 0 0 1 44 710 Tm (Nomor: HC-DEMO-001) Tj ET
+0.10 0.20 0.20 rg BT /F1 10 Tf 1 0 0 1 44 692 Tm (Status: Dikonfirmasi) Tj ET
+0.88 0.91 0.90 rg 44 677 507 0.8 re f
+0.03 0.42 0.37 rg BT /F2 9 Tf 1 0 0 1 44 655 Tm (DATA PELANGGAN) Tj ET
+0.10 0.20 0.20 rg BT /F2 11 Tf 1 0 0 1 44 638 Tm (Rina Puspita) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 622 Tm (081234567801) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 605 Tm (rina@example.test) Tj ET
+0.03 0.42 0.37 rg BT /F2 9 Tf 1 0 0 1 321 655 Tm (JADWAL KUNJUNGAN) Tj ET
+0.10 0.20 0.20 rg BT /F2 10 Tf 1 0 0 1 321 637 Tm (22/11/2026  09:00 WIB) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 321 619 Tm (4 jam, jarak 8 km) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 321 602 Tm (Jl. Setiabudi, Bandung) Tj ET
+0.88 0.91 0.90 rg 44 572 507 0.8 re f
+0.03 0.42 0.37 rg BT /F2 9 Tf 1 0 0 1 44 550 Tm (LAYANAN DIPESAN) Tj ET
+0.10 0.20 0.20 rg BT /F2 12 Tf 1 0 0 1 44 529 Tm (Perawat Home Visit) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 512 Tm (Petugas: Nadia Putri, S.Kep.) Tj ET
+0.88 0.91 0.90 rg 44 491 507 0.8 re f
+0.03 0.42 0.37 rg BT /F2 10 Tf 1 0 0 1 44 470 Tm (RINCIAN BIAYA \(ESTIMASI\)) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 447 Tm (Layanan \(4 jam\)) Tj ET
+0.10 0.20 0.20 rg BT /F2 9 Tf 1 0 0 1 419 447 Tm (Rp340.000) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 426 Tm (Perjalanan \(jarak 8 km; 5 km pertama gratis\)) Tj ET
+0.10 0.20 0.20 rg BT /F2 9 Tf 1 0 0 1 419 426 Tm (Rp13.500) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 405 Tm (Tambahan akhir pekan \(10%\)) Tj ET
+0.10 0.20 0.20 rg BT /F2 9 Tf 1 0 0 1 419 405 Tm (Rp34.000) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 384 Tm (Biaya platform) Tj ET
+0.10 0.20 0.20 rg BT /F2 9 Tf 1 0 0 1 419 384 Tm (Rp5.000) Tj ET
+0.88 0.91 0.90 rg 44 359 507 0.8 re f
+0.91 0.97 0.94 rg 44 314 507 42 re f
+0.10 0.20 0.20 rg BT /F2 12 Tf 1 0 0 1 58 329 Tm (TOTAL ESTIMASI) Tj ET
+0.02 0.36 0.29 rg BT /F2 14 Tf 1 0 0 1 394 329 Tm (Rp392.500) Tj ET
+0.56 0.28 0.12 rg BT /F2 10 Tf 1 0 0 1 44 220 Tm (PENTING: STRUK DEMO, BUKAN BUKTI PEMBAYARAN) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 201 Tm (Tidak ada transaksi nyata. Jadwal, tarif, dan ketersediaan perlu) Tj ET
+0.10 0.20 0.20 rg BT /F1 9 Tf 1 0 0 1 44 186 Tm (dikonfirmasi apabila aplikasi digunakan dalam operasional asli.) Tj ET
+0.85 0.88 0.87 rg 44 51 507 1 re f
+0.40 0.50 0.48 rg BT /F1 8 Tf 1 0 0 1 44 35 Tm (HOME CARE UNAI  /  DEMONSTRATION) Tj ET
+0.10 0.20 0.20 rg BT /F1 8 Tf 1 0 0 1 436 35 Tm (HC-DEMO-001) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3326
+%%EOF
