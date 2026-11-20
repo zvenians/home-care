@@ -1,4 +1,4 @@
-HOME CARE UNAI — PREVIEW DEMO
+HOME CARE UNAI | PREVIEW DEMO
 
 1. Open index.html with Chrome, Edge, or Firefox.
 2. Click Masuk and choose Pelanggan or Admin (no username/password needed).

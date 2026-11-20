@@ -1,7 +1,7 @@
 <?php
 namespace Database\Seeders;
 
-use App\Models\{Application,Booking,Caregiver,Customer,Promotion,Review,Service,ServiceArea};
+use App\Models\{Application,Booking,Caregiver,Customer,Promotion,Service,ServiceArea};
 use App\Services\PricingEngine;
 use Illuminate\Database\Seeder;
 
@@ -29,8 +29,6 @@ class DatabaseSeeder extends Seeder
         Promotion::create(['code'=>'HEMAT25','type'=>'fixed','value'=>25000,'max_discount'=>25000,'active'=>true]);
         foreach ([['name'=>'Bandung Utara','city'=>'Bandung','coverage_km'=>25], ['name'=>'Cimahi & Sekitar','city'=>'Cimahi','coverage_km'=>22], ['name'=>'Lembang','city'=>'Bandung Barat','coverage_km'=>35]] as $area) ServiceArea::create($area);
         Application::create(['name'=>'Dian Lestari','email'=>'dian@example.test','phone'=>'081234567900','profession'=>'Perawat','experience_years'=>3,'motivation'=>'Ingin bergabung dalam tim layanan home care.']);
-        Review::create(['name'=>'Ibu Rina','service_id'=>1,'rating'=>5,'comment'=>'Tim ramah, komunikatif, dan datang sesuai jadwal.','published'=>true]);
-        Review::create(['name'=>'Bapak Agus','service_id'=>2,'rating'=>5,'comment'=>'Penjelasan terapi mudah dipahami keluarga.','published'=>true]);
         $engine=app(PricingEngine::class);
         foreach ([
             ['customer_id'=>1,'service_id'=>1,'caregiver_id'=>1,'date'=>'+2 days','time'=>'09:00','units'=>4,'distance'=>8,'status'=>'confirmed'],

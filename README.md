@@ -1,4 +1,4 @@
-# HOME CARE UNAI — Demo modern Laravel 13 + Tailwind CSS 4
+# HOME CARE UNAI | Demo modern Laravel 13 + Tailwind CSS 4
 
 Repositori hasil modernisasi project `PROJECT.rar` (7 halaman HTML asli) menjadi aplikasi demonstrasi Home Care dengan dua tampilan yang berbeda: **pelanggan/viewer** dan **admin**.
 

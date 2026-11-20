@@ -10,7 +10,7 @@ Turn the supplied Laravel demo into a polished, credible healthcare-service demo
 - Make the public preview useful on Vercel while labelling it as a standalone demo.
 - Add a distinct caregiver workspace and a true five-step booking flow.
 - Strengthen accessibility, responsive behavior, receipts, and realistic operational states.
-- Keep every visible control functional and every fictional profile or review clearly identified as sample data.
+- Keep every visible control functional, identify fictional profiles as sample data, and withhold fictional reviews entirely.
 
 ## Non-goals
 
