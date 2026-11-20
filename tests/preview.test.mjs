@@ -83,3 +83,12 @@ test('brand palette is cranberry red without legacy green tokens',()=>{
   assert.doesNotMatch(css,new RegExp(legacy));
  }
 });
+test('premium identity uses the official seal, editorial type, local photography, and real reveal motion',()=>{
+ const brand=evalJS('brand()');
+ assert.match(brand,/logo-unai\.png/);
+ assert.doesNotMatch(brand,/brand-mark/);
+ assert.match(css,/newsreader/);
+ assert.match(css,/geist/);
+ assert.match(src,/photos\/home-care-hero\.webp/);
+ assert.match(src,/intersectionobserver/i);
+});

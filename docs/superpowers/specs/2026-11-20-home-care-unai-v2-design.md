@@ -1,5 +1,11 @@
 # Home Care UNAI V2 design
 
+## Premium visual direction
+
+The interface uses a cranberry-red editorial healthcare system, the official UNAI seal, Geist for functional UI, and Newsreader for high-impact editorial headings. Licensed healthcare photography replaces decorative CSS portraits across the hero, service cards, caregiver cards, login, process, and closing call-to-action. Photography is stored locally as optimized WebP and credited in `docs/IMAGE_CREDITS.md`.
+
+Motion is progressive enhancement: the hero enters on load, cards reveal through `IntersectionObserver`, and image crops use restrained hover movement. `prefers-reduced-motion` disables the effects without hiding content.
+
 ## Intent
 
 Turn the supplied Laravel demo into a polished, credible healthcare-service demonstration that lets a reviewer complete the customer, administrator, and caregiver journeys without mistaking fictional data for real clinical operations.
