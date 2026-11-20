@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import fs from 'node:fs';
 const src=fs.readFileSync(new URL('../preview/assets/app.js',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../preview/assets/app.css',import.meta.url),'utf8').toLowerCase();
 const app={innerHTML:''};
 const local=new Map();
 const fake={
@@ -73,4 +74,12 @@ test('admin local preview CRUD service create update delete',async()=>{
  assert.equal(evalJS(`state.data.services.find(s=>s.id===${id}).price`),155000);
  await evalJS(`removeItem('services',${id})`);
  assert.equal(evalJS('state.data.services.length'),count);
+});
+test('brand palette is cranberry red without legacy green tokens',()=>{
+ assert.match(css,/#9f1239/);
+ assert.match(css,/#be123c/);
+ assert.match(css,/#fff1f2/);
+ for(const legacy of ['#0b635b','#0d5145','#137e6a','#137e6d','#0f745f']){
+  assert.doesNotMatch(css,new RegExp(legacy));
+ }
 });

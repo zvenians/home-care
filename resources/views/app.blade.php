@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0b635b">
+  <meta name="theme-color" content="#881337">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>Home Care UNAI | Perawatan lebih dekat</title>
   <link rel="icon" type="image/png" href="/assets/logo-unai.png">

@@ -34,7 +34,7 @@ Turn the supplied Laravel demo into a polished, credible healthcare-service demo
 
 Reading this as a healthcare operations platform for Indonesian families and demo operators, in a warm-clinical editorial language, dial ENERGY 2 / RHYTHM 2 / MOTION 2.
 
-- Color: teal and green signal continuity with the existing identity; warm amber is reserved for warnings and human emphasis.
+- Color: the latest owner direction replaces the earlier green/teal requirement with cranberry red, deep burgundy, pale rose surfaces, and restrained amber warnings. The red is intentionally dark and warm so the product reads as calm healthcare rather than an emergency alert.
 - Typography: Manrope provides approachable but structured headings; DM Sans keeps dense operational text readable.
 - Layout: public pages use varied editorial sections; dashboards use denser task-oriented panels.
 - Spacing: generous on public content, compact in tables and operational controls.
