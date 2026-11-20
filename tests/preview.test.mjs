@@ -84,6 +84,7 @@ test('brand palette is cranberry red without legacy green tokens',()=>{
  }
 });
 test('premium identity uses the official seal, editorial type, local photography, and real reveal motion',()=>{
+ evalJS("state.role='viewer'; state.view='home'; render()");
  const brand=evalJS('brand()');
  assert.match(brand,/logo-unai\.png/);
  assert.doesNotMatch(brand,/brand-mark/);
@@ -91,4 +92,6 @@ test('premium identity uses the official seal, editorial type, local photography
  assert.match(css,/geist/);
  assert.match(src,/photos\/home-care-hero\.webp/);
  assert.match(src,/intersectionobserver/i);
+ assert.match(app.innerHTML,/fetchpriority="high"/);
+ assert.doesNotMatch(app.innerHTML,/<img(?![^>]*\bwidth=)/);
 });
