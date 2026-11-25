@@ -20,7 +20,7 @@ class HomeCareDemoTest extends TestCase
         $this->getJson('/api/bootstrap')->assertOk()->assertJsonStructure(['services','caregivers','bookings','reviews']);
         $this->postJson('/api/quote', [
             'service_id' => Service::firstOrFail()->id,
-            'scheduled_date' => now('Asia/Jakarta')->addDays(4)->toDateString(),
+            'scheduled_date' => now('Asia/Jakarta')->addWeeks(2)->startOfWeek()->addDays(2)->toDateString(),
             'scheduled_time' => '09:00', 'units' => 2, 'distance_km' => 7,
         ])->assertOk()->assertJsonPath('quote.travel', 9000);
     }
@@ -29,7 +29,7 @@ class HomeCareDemoTest extends TestCase
     {
         $response = $this->postJson('/api/bookings', [
             'service_id' => Service::firstOrFail()->id,
-            'scheduled_date' => now('Asia/Jakarta')->addDays(4)->toDateString(),
+            'scheduled_date' => now('Asia/Jakarta')->addWeeks(2)->startOfWeek()->addDays(2)->toDateString(),
             'scheduled_time' => '09:00', 'units' => 2, 'distance_km' => 7,
             'name' => 'Pelanggan Demo', 'phone' => '081290001111',
             'email' => 'pelanggan@example.test', 'address' => 'Jalan Contoh 16 Bandung',
